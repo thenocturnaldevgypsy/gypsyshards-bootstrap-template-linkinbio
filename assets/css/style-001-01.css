@@ -37,6 +37,15 @@ p {
    color: #CCDBEC;
 }
 
+a {
+   color: #2c4c6e;
+   transition: 0.3s ease;
+}
+
+a:hover {
+   color: #CCDBEC;
+}
+
 .linkinbio-main-container {
    width: 100%;
    max-width: 768px;
