@@ -1,5 +1,5 @@
 /**
-* Main CSS File for GypsyShards: [001] Link in Bio Template using Bootstrap 5.3.3
+* Main CSS File for GypsyShards: [Theme 001.1] Link in Bio Template using Bootstrap 5.3.3
 * Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
 */
 
@@ -13,63 +13,9 @@ body {
    align-items: center;
    padding-top: 40px;
    padding-bottom: 40px;
+   padding-left: 40px;
+   padding-right: 40px;
    background-color: #CCDBEC;
    font-family: Ubuntu, sans-serif;
    letter-spacing: 1px;
-}
-
-/* CSS for Link in Bio [001] // Start */
-.linkinbio-1-main-containter {
-   width: 100%;
-   max-width: 768px;
-   text-align: center;
-   padding: 30px;
-   background-color: #101010;
-   border-radius: 25px;
-   margin: 50px auto; 
-}
-
-.linkinbio-1-profile-pic {
-   width: 120px;
-   height: 120px;
-   border-radius: 50%;
-   object-fit: cover;
-   margin-bottom: 20px;
-}
-
-.linkinbio-1-social-icons a {
-   color: #2c4c6e;
-   margin: 0 5px;
-   font-size: 24px;
-   text-decoration: none;
-}
-.linkinbio-1-social-icons a:hover {
-   color: #CCDBEC;
-}
-/* CSS for Link in Bio [001] // End */
-
-
-
-h1 {
-   font-size: 23px;
-   font-weight: bold;
-   color: #2c4c6e;
-}
-
-h2 {
-   font-size: 15px;
-   font-weight: bold;
-   color: #CCDBEC;
-}
-
-p {
-   font-size: 11px;
-   color: #CCDBEC;
-}
-
-/* Responsive width adjustment */
-@media (min-width: 768px) {
-   .linkinbio-1-containter {
-      width: 50%;
-   }
 }
