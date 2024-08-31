@@ -3,11 +3,6 @@
 * Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
 */
 
-html,
-body {
-   height: 100%;
-}
-
 body {
    background-color: #CCDBEC;
    display: flex;
@@ -21,30 +16,82 @@ body {
    color: #2c4c6e;
 }
 
-.header {
+.header-container {
    text-align: center;
-   margin-bottom: 20px;
+   margin-top: 30px;
+   margin-bottom: 40px;
 }
 
-.header h1 {
+.header-container h1 {
    font-size: 23px;
    font-weight: bold;
    color: #2c4c6e;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
 }
 
-.header p {
+.header-container p {
    font-size: 13px;
 }
 
-.header a {
+.header-container a {
    color: #00416a;
    font-weight: bold;
    transition: 0.3s ease;
    text-decoration: none; 
 }
 
-.header a:hover {
+.header-container a:hover {
    color: #2c4c6e;
    text-decoration: underline;
+}
+
+.template-selection-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   margin-bottom: 20px;
+}
+
+.template-button {
+   text-align: center;
+   max-width: 400px;
+   flex: 1 1 calc(100% - 20px); /* Default to full width */
+   border-radius: 8px;
+   background-color: #1d2c3d;
+   padding: 10px;
+   transition: transform 0.3s ease;
+   text-decoration: none;
+}
+
+.template-button img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+
+.template-button p {
+   margin-top: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 13px;
+   color: #ccdbec;
+}
+
+.template-button:hover {
+   transform: scale(1.05);
+}
+
+.footer-container {
+   text-align: center;
+   font-size: 13px;
+   color: #101010;
+   margin-top: 40px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 577px) {
+   .template-button {
+       flex: 1 1 calc(33.333% - 20px); /* 3 images per row on tablets and desktops */
+   }
 }

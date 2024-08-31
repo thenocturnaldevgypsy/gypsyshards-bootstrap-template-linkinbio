@@ -3,16 +3,11 @@
 * Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
 */
 
-html,
-body {
-   height: 100%;
-}
-
 body {
    display: flex;
    align-items: center;
-   padding-top: 40px;
-   padding-bottom: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
    padding-left: 40px;
    padding-right: 40px;
    background-color: #CCDBEC;
@@ -57,11 +52,11 @@ a:hover {
    padding-right: 30px;
    background-color: #101010;
    border-radius: 25px;
-   margin: 50px auto; 
+   margin: 40px auto;
 }
 
 .linkinbio-profile-header {
-   margin-top: 50px;
+   margin-top: 40px;
    margin-bottom: 20px;
 }
 
