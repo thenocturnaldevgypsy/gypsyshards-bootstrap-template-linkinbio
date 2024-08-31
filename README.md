@@ -8,5 +8,5 @@ This repository  belongs to one of my `GypsyShards` series, Link in Bio Template
 ### Tools used 
 - `VSCode Version: 1.89.0 (Universal)` as my IDE
 - `Bootstrap 5.3.3` as the main HTML-CSS Framework
-- `Lineicons 4.0 (Basic, Free)` for the Icons
+- `Bootstrap Icons 1.11.3` and `Lineicons 4.0 (Basic, Free)` for the Icons
 - `Ubuntu from Google Fonts` for the Font
