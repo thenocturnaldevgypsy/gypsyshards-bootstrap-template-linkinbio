@@ -3,64 +3,48 @@
 * Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
 */
 
+html,
 body {
-   background-color: #f7f7f7;
-   font-family: Arial, sans-serif;
-   padding: 20px;
+   height: 100%;
 }
+
+body {
+   background-color: #CCDBEC;
+   display: flex;
+   align-items: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   padding-left: 40px;
+   padding-right: 40px;
+   font-family: Ubuntu, sans-serif;
+   letter-spacing: 1px;
+   color: #2c4c6e;
+}
+
 .header {
    text-align: center;
    margin-bottom: 20px;
 }
+
 .header h1 {
-   font-size: 2.5rem;
+   font-size: 23px;
+   font-weight: bold;
+   color: #2c4c6e;
    margin-bottom: 10px;
 }
+
 .header p {
-   font-size: 1.2rem;
-   color: #666;
+   font-size: 13px;
 }
-.image-button-container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 20px;
-   margin-bottom: 20px;
-}
-.image-button {
-   text-align: center;
-   max-width: 150px;
-   flex: 1 1 calc(100% - 20px); /* Default to full width */
-   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-   border-radius: 8px;
-   background-color: white;
-   padding: 10px;
-   transition: transform 0.3s ease;
-   text-decoration: none; /* Remove underline from links */
-}
-.image-button img {
-   width: 100%;
-   height: auto;
-   border-radius: 8px;
-}
-.image-button p {
-   margin-top: 10px;
-   font-size: 1rem;
+
+.header a {
+   color: #00416a;
    font-weight: bold;
-   color: #333;
+   transition: 0.3s ease;
+   text-decoration: none; 
 }
-.image-button:hover {
-   transform: scale(1.05);
-}
-.footer {
-   text-align: center;
-   font-size: 14px;
-   color: #666;
-   margin-top: 20px;
-}
-/* Responsive adjustments */
-@media (min-width: 577px) {
-   .image-button {
-       flex: 1 1 calc(33.333% - 20px); /* 3 images per row on tablets and desktops */
-   }
+
+.header a:hover {
+   color: #2c4c6e;
+   text-decoration: underline;
 }

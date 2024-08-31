@@ -40,10 +40,12 @@ p {
 a {
    color: #2c4c6e;
    transition: 0.3s ease;
+   text-decoration: none;
 }
 
 a:hover {
    color: #CCDBEC;
+   text-decoration: underline;
 }
 
 .linkinbio-main-container {
