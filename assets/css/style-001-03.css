@@ -1,0 +1,145 @@
+/**
+* Main CSS File for GypsyShards: [Theme 001.3] Link in Bio Template using Bootstrap 5.3.3
+* Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
+*/
+
+body {
+   display: flex;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 40px;
+   padding-right: 40px;
+   background-color: #CCDBEC;
+   font-family: Ubuntu, sans-serif;
+   letter-spacing: 1px;
+}
+
+.linkinbio-main-container {
+   width: 100%;
+   max-width: 768px;
+   text-align: center;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 25px;
+   border: 2px solid #101010;
+   margin: 50px auto;
+   position: relative;
+   overflow: hidden;
+}
+
+h1 {
+   font-size: 23px;
+   font-weight: bold;
+   color: #2c4c6e;
+}
+
+h2 {
+   font-size: 15px;
+}
+
+span {
+   font-size: 12px;
+}
+
+p {
+   font-size: 12px;
+   color: #CCDBEC;
+}
+
+.linkinbio-main-container::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 320px; /* Adjust this height as needed */
+   background: url('../img/background.jpg') no-repeat center center;
+   background-size: cover;
+   z-index: -1;
+}
+
+.linkinbio-main-container::after {
+   content: "";
+   position: absolute;
+   top: 320px; /* Same height as the image */
+   left: 0;
+   width: 100%;
+   height: calc(100% - 120px); /* Fills the remaining space */
+   background-color: #101010;
+   z-index: -2;
+}
+
+.linkinbio-profile-header {
+   margin-top: 180px;
+   margin-bottom: 20px;
+}
+
+.linkinbio-profile-pic {
+   width: 160px;
+   height: 160px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.linkinbio-social-icons a {
+   color: #2c4c6e;
+   margin: 0 5px;
+   font-size: 25px;
+   text-decoration: none;
+   transition: 0.3s ease;
+}
+
+.linkinbio-social-icons a:hover {
+   color: #CCDBEC;
+}
+
+.linkinbio-quick-links {
+   margin: 20px 0;
+}
+
+.linkinbio-link-button {
+   display: block;
+   width: 100%;
+   padding: 15px;
+   margin-top: 12px;
+   background-color: #2c4c6e;
+   color: #CCDBEC;
+   border-radius: 20px;
+   text-decoration: none;
+   text-align: center;
+   border: 2px solid #2c4c6e;
+   transition: background-color 0.3s ease, color 0.3s ease;
+   cursor: pointer;
+}
+
+.linkinbio-link-button:hover {
+   background-color: #CCDBEC;
+   color: #101010;
+}
+
+.linkinbio-link-button h2, .linkinbio-link-button span {
+   margin: 0;
+   padding: 0;
+   transition: color 0.3s ease;
+}
+
+.linkinbio-link-button h2:hover, .linkinbio-link-button span:hover {
+   color: #101010;
+}
+
+.linkinbio-footer {
+   font-size: 12px;
+   color: #CCDBEC;
+   margin-top: 30px;
+}
+
+/* Responsive width adjustment */
+@media (min-width: 768px) {
+   .linkinbio-main-container {
+      width: 100%;
+   }
+}
