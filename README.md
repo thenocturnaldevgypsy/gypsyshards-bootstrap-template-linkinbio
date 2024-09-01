@@ -3,7 +3,7 @@
 > [!NOTE]
 > `GypsyShards` is one of my active personal project for refreshing my skills with the latest Bootstrap's release (5.3.3), focusing with creating Responsive (`mobile`, `tablet` and `desktop`) Link in Bio templates. If you want to ask some questions and provide feedback, feel free to start a discussion or an issue, I'll try my best to answer.
 
-If you find this repo helpful, please don't forget to `star` and `fork` at GitHub, also, maybe `buy me a coffee`at Ko-Fi
+If you find this repo helpful, please don't forget to `star` and `fork` at GitHub, also, maybe `buy me a coffee` at Ko-Fi
 
 ### Updates/Progress
 - **01/09/2024**
