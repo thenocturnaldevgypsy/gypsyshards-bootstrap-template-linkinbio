@@ -6,8 +6,10 @@ This repository belongs to one of my `GypsyShards` series, Link in Bio Template 
 > `GypsyShards` is a series of my public repositories at GitHub that contains my personal projects/exploration in designing and development to keep my skills up to date. 
 
 ### Updates/Progress
+- **01/09/2024**
+   - finished theme-001-02.html
 - **29/08 to 31/08, 2024**
-   - Started the project, decided which tools to be used, setup the repo to public
+   - Started the project, decided which tools to be used, setup the repo to public, finished the initial directory design, README.md, licenese, index.html and theme-001-01.htnk
 
 ### Folder Structure, IDE and JDK Used
 
