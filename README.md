@@ -1,9 +1,7 @@
-## GypsyShards: [001] Link in Bio Template / Theme using Bootstrap 5.3.3
-
-This repository belongs to one of my `GypsyShards` series, Link in Bio Template / Theme using Bootstrap 5.3.3. If you want to ask some questions about it, feel free to start a discussion or an issue, I'll try my best to answer.
+## GypsyShards : free and open source templates of Link in Bio created using Bootstrap 5.3.3 
 
 > [!NOTE]
-> `GypsyShards` is a series of my public repositories at GitHub that contains my personal projects/exploration in designing and development to keep my skills up to date. 
+> `GypsyShards` is my personal project for refreshing my skills with the latest Bootstrap's release (5.3.3), focusing with creating Responsive Link in Bio templates. If you want to ask some questions and provide feedback, feel free to start a discussion or an issue, I'll try my best to answer.
 
 ### Updates/Progress
 - **01/09/2024**
