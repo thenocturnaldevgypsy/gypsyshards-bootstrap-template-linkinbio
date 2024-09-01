@@ -7,7 +7,7 @@ This repository belongs to one of my `GypsyShards` series, Link in Bio Template 
 
 ### Updates/Progress
 - **01/09/2024**
-   - finished theme-001-02.html
+   - Finished theme-001-02.html and theme-001-03.html
 - **29/08 to 31/08, 2024**
    - Started the project, decided which tools to be used, setup the repo to public, finished the initial directory design, README.md, licenese, index.html and theme-001-01.htnk
 
