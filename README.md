@@ -33,3 +33,7 @@ I've used the following tools for this project:
    - `theme-001-01.html`
    - `assets/css/style-001-01.css`
    - `assets/js/main-001-01.css`
+- 001.02: Another Basic Link in Bio: Responsive Background Image, Semi-transparent Containter, Profile Picture, H1, Description, Quick Social Media Links, Border Hover Link Buttons and Simple Footer.
+   - `theme-001-02.html`
+   - `assets/css/style-001-02.css`
+   - `assets/js/main-001-02.css`
