@@ -27,7 +27,7 @@ I've used the following tools for this project:
 - `Ubuntu from Google Fonts` for the Font
 
 ## Contents and Breakdown
-- 001: Theme Selection / Directory
+- Home/Index: Template Selection / Theme Directory
    - `index.html`
    - `assets/css/style.css`
    - `assets/js/main.css`
