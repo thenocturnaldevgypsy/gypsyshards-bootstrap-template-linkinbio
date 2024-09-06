@@ -29,7 +29,7 @@ h2 {
 
 p {
    font-size: 12px;
-   color: #CCDBEC;
+   color: #00416a;
 }
 
 a {
@@ -50,8 +50,6 @@ a:hover {
    padding-bottom: 30px;
    padding-left: 30px;
    padding-right: 30px;
-   background-color: #101010;
-   border-radius: 25px;
    margin: 40px auto;
 }
 
@@ -78,7 +76,7 @@ a:hover {
 }
 
 .linkinbio-social-icons a:hover {
-   color: #CCDBEC;
+   color: #0070B6;
 }
 
 .linkinbio-quick-links {
@@ -101,13 +99,12 @@ a:hover {
 }
 
 .linkinbio-link-button:hover {
-   color: #101010;
-   background-color: #CCDBEC;
+   color: #CCDBEC;
+   background-color: #0070B6;
 }
 
 .linkinbio-footer {
    font-size: 12px;
-   color: #CCDBEC;
    margin-top: 30px;
 }
 

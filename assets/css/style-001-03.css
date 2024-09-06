@@ -10,30 +10,15 @@ body {
    padding-bottom: 20px;
    padding-left: 40px;
    padding-right: 40px;
+   background-color: #CCDBEC;
    font-family: Ubuntu, sans-serif;
    letter-spacing: 1px;
-   position: relative;
-   min-height: 100vh;
-}
-
-/* Blurred background using ::before */
-body::before {
-   content: '';
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: url('../img/background.jpg') no-repeat center center fixed;
-   background-size: cover;
-   filter: blur(12px); /* Apply the blur effect */
-   z-index: -1; /* Ensure it's behind the content */
 }
 
 h1 {
    font-size: 23px;
    font-weight: bold;
-   color: #CCDBEC;
+   color: #2c4c6e;
 }
 
 h2 {
@@ -65,7 +50,7 @@ a:hover {
    padding-bottom: 30px;
    padding-left: 30px;
    padding-right: 30px;
-   background-color: #101010cc; /* with 80% opacity */
+   background-color: #101010;
    border-radius: 25px;
    margin: 40px auto;
 }
@@ -112,14 +97,12 @@ a:hover {
    border-color: #2c4c6e;
    font-size: 11.5px;
    font-weight: bold;
-   border: 2px solid #2c4c6e; /* Smooth 2px border on hover */
-   transition: background-color 0.3s ease, border 0.3s ease; /* Smooth transition for background and border */
+   transition: background-color 0.3s ease;
 }
 
 .linkinbio-link-button:hover {
    color: #101010;
    background-color: #CCDBEC;
-   border: 2px solid #2c4c6e; /* Smooth 2px border on hover */
 }
 
 .linkinbio-footer {
