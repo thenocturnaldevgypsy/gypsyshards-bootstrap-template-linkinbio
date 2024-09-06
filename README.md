@@ -7,12 +7,12 @@ If you find this repo helpful, please don't forget to `star` to keep yourself up
 
 ### Updates/Progress
 - **06/09 to 07/09, 2024**
-   - Finished theme-001-04.html, theme-001-05.html, theme-001-06.html and theme-001-07.html
+   - Finished `theme-001-04.html`, `theme-001-05.html`, `theme-001-06.html`, `theme-001-07.html`, `theme-001-08.html`, `theme-001-09.html`, `theme-001-10.html` and `theme-001-11.html`
    - Established the GitHub Pages of the repo: https://thenocturnaldevgypsy.github.io/gypsyshards-bootstrap-template-linkinbio/
 - **01/09/2024**
-   - Finished theme-001-02.html and theme-001-03.html
+   - Finished `theme-001-02.html` and `theme-001-03.html`
 - **29/08 to 31/08, 2024**
-   - Started the project, decided which tools to be used, setup the repo to public, finished the initial directory design, README.md, licenese, index.html and theme-001-01.htnk
+   - Started the project, decided which tools to be used, setup the repo to public, finished the initial directory design, `README.md`, `LICENSE`, `index.html` and `theme-001-01.html`
 
 ### Folder Structure, IDE and JDK Used
 
@@ -34,7 +34,22 @@ I've used the following tools for this project:
    - `index.html`
    - `assets/css/style.css`
    - `assets/js/main.css`
-
+- 11 - Semi-Basic Link in Bio: Responsive Background Video from Youtube on Loop and Mute, Half-image/Half-solid color Container, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer.
+   - `theme-001-11.html`
+   - `assets/css/style-001-11.css`
+   - `assets/js/main-001-11.css`
+- 10 - Semi-Basic Link in Bio: Responsive Background Image, Blurry via CSS, Half-image/Half-solid color Container, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer.
+   - `theme-001-10.html`
+   - `assets/css/style-001-10.css`
+   - `assets/js/main-001-10.css`
+- 09 - Semi-Basic Link in Bio: Responsive Background Image, Half-image/Half-solid color Container, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer.
+   - `theme-001-09.html`
+   - `assets/css/style-001-09.css`
+   - `assets/js/main-001-09.css`
+- 08 - Semi-Basic Link in Bio: Color Fading Transition Background, Half-image/Half-solid color Container, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer.
+   - `theme-001-08.html`
+   - `assets/css/style-001-08.css`
+   - `assets/js/main-001-08.css`
 - 07: Semi-Basic Link in Bio: Half-image/Half-solid color Container, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer.
    - `theme-001-07.html`
    - `assets/css/style-001-07.css`
