@@ -10,37 +10,36 @@ body {
    padding-bottom: 20px;
    padding-left: 40px;
    padding-right: 40px;
-   background-color: #CCDBEC;
    font-family: Ubuntu, sans-serif;
    letter-spacing: 1px;
+   position: relative;
+   min-height: 100vh;
 }
 
-.linkinbio-main-container {
+/* Blurred background using ::before */
+body::before {
+   content: '';
+   position: fixed;
+   top: 0;
+   left: 0;
    width: 100%;
-   max-width: 768px;
-   text-align: center;
-   padding-bottom: 20px;
-   padding-left: 30px;
-   padding-right: 30px;
-   border-radius: 25px;
-   border: 2px solid #101010;
-   margin: 50px auto;
-   position: relative;
-   overflow: hidden;
+   height: 100%;
+   background: url('../img/background.jpg') no-repeat center center fixed;
+   background-size: cover;
+   filter: blur(12px); /* Apply the blur effect */
+   z-index: -1; /* Ensure it's behind the content */
 }
 
 h1 {
    font-size: 23px;
    font-weight: bold;
-   color: #2c4c6e;
+   color: #CCDBEC;
 }
 
 h2 {
    font-size: 15px;
-}
-
-span {
-   font-size: 12px;
+   font-weight: bold;
+   color: #CCDBEC;
 }
 
 p {
@@ -48,37 +47,37 @@ p {
    color: #CCDBEC;
 }
 
-.linkinbio-main-container::before {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 320px; /* Adjust this height as needed */
-   background: url('../img/background.jpg') no-repeat center center;
-   background-size: cover;
-   z-index: -1;
+a {
+   color: #2c4c6e;
+   transition: 0.3s ease;
+   text-decoration: none;
 }
 
-.linkinbio-main-container::after {
-   content: "";
-   position: absolute;
-   top: 320px; /* Same height as the image */
-   left: 0;
+a:hover {
+   color: #CCDBEC;
+   text-decoration: underline;
+}
+
+.linkinbio-main-container {
    width: 100%;
-   height: calc(100% - 120px); /* Fills the remaining space */
-   background-color: #101010;
-   z-index: -2;
+   max-width: 768px;
+   text-align: center;
+   padding-bottom: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: #101010cc; /* with 80% opacity */
+   border-radius: 25px;
+   margin: 40px auto;
 }
 
 .linkinbio-profile-header {
-   margin-top: 180px;
+   margin-top: 40px;
    margin-bottom: 20px;
 }
 
 .linkinbio-profile-pic {
-   width: 160px;
-   height: 160px;
+   width: 120px;
+   height: 120px;
    border-radius: 50%;
    object-fit: cover;
    margin-top: 10px;
@@ -88,7 +87,7 @@ p {
 .linkinbio-social-icons a {
    color: #2c4c6e;
    margin: 0 5px;
-   font-size: 25px;
+   font-size: 24px;
    text-decoration: none;
    transition: 0.3s ease;
 }
@@ -108,27 +107,19 @@ p {
    margin-top: 12px;
    background-color: #2c4c6e;
    color: #CCDBEC;
-   border-radius: 20px;
    text-decoration: none;
-   text-align: center;
-   border: 2px solid #2c4c6e;
-   transition: background-color 0.3s ease, color 0.3s ease;
-   cursor: pointer;
+   border-radius: 20px;
+   border-color: #2c4c6e;
+   font-size: 11.5px;
+   font-weight: bold;
+   border: 2px solid #2c4c6e; /* Smooth 2px border on hover */
+   transition: background-color 0.3s ease, border 0.3s ease; /* Smooth transition for background and border */
 }
 
 .linkinbio-link-button:hover {
+   color: #101010;
    background-color: #CCDBEC;
-   color: #101010;
-}
-
-.linkinbio-link-button h2, .linkinbio-link-button span {
-   margin: 0;
-   padding: 0;
-   transition: color 0.3s ease;
-}
-
-.linkinbio-link-button h2:hover, .linkinbio-link-button span:hover {
-   color: #101010;
+   border: 2px solid #2c4c6e; /* Smooth 2px border on hover */
 }
 
 .linkinbio-footer {
