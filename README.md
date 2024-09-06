@@ -34,31 +34,32 @@ I've used the following tools for this project:
    - `index.html`
    - `assets/css/style.css`
    - `assets/js/main.css`
-- 001.01: Basic Link in Bio: One Color Background, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons and Simple Footer.
-   - `theme-001-01.html`
-   - `assets/css/style-001-01.css`
-   - `assets/js/main-001-01.css`
-- 001.02: Basic Link in Bio: Color Fading Transition Background, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons and Simple Footer
-   - `theme-001-02.html`
-   - `assets/css/style-001-02.css`
-   - `assets/js/main-001-02.css`
-- 001.03: Basic Link in Bio: Profile Picture, H1, Description, Quick Social Media Links, Link Buttons and Simple Footer.
-   - `theme-001-03.html`
-   - `assets/css/style-001-03.css`
-   - `assets/js/main-001-03.css`
-- 001.04: Basic Link in Bio: Responsive Background Image, Semi-transparent Container, Profile Picture, H1, Description, Quick Social Media Links, Border Hover Link Buttons and Simple Footer.
-   - `theme-001-04.html`
-   - `assets/css/style-001-04.css`
-   - `assets/js/main-001-04.css`
-- 001.05: Basic Link in Bio: Responsive Background Image, Blurry via CSS, Semi-transparent Container, Profile Picture, H1, Description, Quick Social Media Links, Border Hover Link Buttons and Simple Footer.
-   - `theme-001-05.html`
-   - `assets/css/style-001-05.css`
-   - `assets/js/main-001-0.css`
-- 001.06: Basic Link in Bio: Responsive Background Video from Youtube on Loop and Mute, Semi-transparent Container, Profile Picture, H1, Description, Quick Social Media Links, Border Hover Link Buttons and Simple Footer..
-   - `theme-001-06.html`
-   - `assets/css/style-001-06.css`
-   - `assets/js/main-001-06.css`
-- 001.07: Semi-Basic Link in Bio: Half-image/Half-solid color Container, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer.
+
+- 07: Semi-Basic Link in Bio: Half-image/Half-solid color Container, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer.
    - `theme-001-07.html`
    - `assets/css/style-001-07.css`
    - `assets/js/main-001-07.css`
+- 06: Basic Link in Bio: Responsive Background Video from Youtube on Loop and Mute, Semi-transparent Container, Profile Picture, H1, Description, Quick Social Media Links, Border Hover Link Buttons and Simple Footer..
+   - `theme-001-06.html`
+   - `assets/css/style-001-06.css`
+   - `assets/js/main-001-06.css`
+- 05: Basic Link in Bio: Responsive Background Image, Blurry via CSS, Semi-transparent Container, Profile Picture, H1, Description, Quick Social Media Links, Border Hover Link Buttons and Simple Footer.
+   - `theme-001-05.html`
+   - `assets/css/style-001-05.css`
+   - `assets/js/main-001-0.css`
+- 04: Basic Link in Bio: Responsive Background Image, Semi-transparent Container, Profile Picture, H1, Description, Quick Social Media Links, Border Hover Link Buttons and Simple Footer.
+   - `theme-001-04.html`
+   - `assets/css/style-001-04.css`
+   - `assets/js/main-001-04.css`
+- 03: Basic Link in Bio: Profile Picture, H1, Description, Quick Social Media Links, Link Buttons and Simple Footer.
+   - `theme-001-03.html`
+   - `assets/css/style-001-03.css`
+   - `assets/js/main-001-03.css`
+- 02: Basic Link in Bio: Color Fading Transition Background, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons and Simple Footer
+   - `theme-001-02.html`
+   - `assets/css/style-001-02.css`
+   - `assets/js/main-001-02.css`
+- 01: Basic Link in Bio: One Color Background, Profile Picture, H1, Description, Quick Social Media Links, Link Buttons and Simple Footer.
+   - `theme-001-01.html`
+   - `assets/css/style-001-01.css`
+   - `assets/js/main-001-01.css`
