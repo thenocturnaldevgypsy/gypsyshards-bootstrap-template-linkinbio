@@ -8,6 +8,7 @@ If you find this repo helpful, please don't forget to `star` to keep yourself up
 ### Updates/Progress
 - **06/09 to 07/09, 2024**
    - Finished theme-001-04.html, theme-001-05.html, theme-001-06.html and theme-001-07.html
+   - Established the GitHub Pages of the repo: https://thenocturnaldevgypsy.github.io/gypsyshards-bootstrap-template-linkinbio/
 - **01/09/2024**
    - Finished theme-001-02.html and theme-001-03.html
 - **29/08 to 31/08, 2024**
