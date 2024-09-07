@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-   font-size: 20px;
+   font-size: 18px;
    font-weight: bold;
    color: #CCDBEC;
 }
@@ -116,7 +116,15 @@ a:hover {
 
 /* Responsive width adjustment */
 @media (min-width: 768px) {
+   body {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
    .linkinbio-main-container {
       width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
    }
 }
