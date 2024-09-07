@@ -136,6 +136,7 @@ a:hover {
       padding-bottom: 15px;
       padding-left: 10px;
       padding-right: 10px;
+      background-attachment: fixed; /* Fix the background image only for larger screens */
    }
    .linkinbio-main-container {
       width: 100%;
