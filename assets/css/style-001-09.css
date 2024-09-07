@@ -14,6 +14,7 @@ body {
    letter-spacing: 1px;
    background: url('../img/background.jpg') no-repeat center center fixed; /* Background image from subdirectory */
    background-size: cover; /* Make sure the background image covers the entire screen */
+   background-attachment: fixed; /* Fix the background image */
 }
 
 .linkinbio-main-container {

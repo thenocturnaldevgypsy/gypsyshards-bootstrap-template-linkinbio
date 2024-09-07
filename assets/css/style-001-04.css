@@ -12,6 +12,7 @@ body {
    padding-right: 40px;
    background: url('../img/background.jpg') no-repeat center center fixed; /* Background image from subdirectory */
    background-size: cover; /* Make sure the background image covers the entire screen */
+   background-attachment: fixed; /* Fix the background image */
    font-family: Ubuntu, sans-serif;
    letter-spacing: 1px;
 }
