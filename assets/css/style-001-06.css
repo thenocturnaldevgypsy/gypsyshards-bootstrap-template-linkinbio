@@ -14,16 +14,16 @@ body {
    letter-spacing: 1px;
    position: relative;
    min-height: 100vh;
-   overflow: hidden; /* Ensure no scrollbars for the video background */
+   overflow-x: hidden;
 }
 
 /* Video background */
 .video-background {
-   position: absolute;
+   position: fixed; /* Fix the video so it doesn't scroll */
    top: 0;
    left: 0;
-   width: 100%;
-   height: 100%;
+   width: 100vw;
+   height: 100vh;
    z-index: -1; /* Ensure it’s behind the content */
    overflow: hidden;
 }
