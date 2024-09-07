@@ -110,6 +110,12 @@ a:hover {
 
 /* Responsive width adjustment */
 @media (min-width: 768px) {
+   body {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
    .linkinbio-main-container {
       width: 100%;
    }
