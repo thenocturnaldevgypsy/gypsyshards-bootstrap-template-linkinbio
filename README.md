@@ -5,7 +5,7 @@
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-PLAYGROUND-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-PLAYGROUND">
    <img src="https://img.shields.io/badge/Version-2.0.1-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 2.0.1">
-   <img src="https://img.shields.io/badge/Lang-HTML|CSS|JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
+   <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap%205.3.3-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap 5.3.3">
    <img src="https://img.shields.io/badge/Contribute-OPEN-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Contribute-OPEN">
    <img src="https://img.shields.io/badge/License-MIT-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="License MIT">
@@ -70,6 +70,7 @@ Filename format for each themes:
 - `theme-xxx(theme_number)-yyy(variant)-zzz(page_number).html` : theme page filename format
 - `theme-xxx(theme_number).md` : theme page filename format
 - `md_assets/theme-xxx(theme_number).jpg` : theme "base" page's screenshot filename format
+- `assets/img/src-xxx(theme_number)-yyy(variant).jpg` : theme page's screenshot filename format
 - `assets/css/style-xxx(theme_number)-yyy(variant).css` : main CSS for the theme page filename format
 - `assets/js/core-xxx(theme_number)-yyy(variant).css` : main JS for the theme page filename format
 
@@ -79,21 +80,20 @@ See the [open issues](https://github.com/thenocturnaldevgypsy/gypsyshards-bootst
 ### 📖 Contents and Breakdown
 | Theme | # of Variants | Description |
 | ------------- | ------------- | ------------- |
-| [Theme 002](theme-002.md) | 006 | Semi-Basic Link in Bio: One Main Background, Half-image/Half-solid color Container Background, Profile Picture, H1 Header, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Simple Footer. |
+| [Theme 002](theme-002.md) | 005 | Semi-Basic Link in Bio: One Main Background, Half-image/Half-solid color Container Background, Profile Picture, H1 Header, Description, Quick Social Media Links, Link Buttons with H2 Title and Description, and Two Line Footer. |
 | [Theme 001](theme-001.md) | 006 | Basic Link in Bio: One Main Background, One Container Background, Profile Picture, H1 Header, Description, Quick Social Media Links, Link Buttons and Simple Footer. |
 | index.html | 001 | Main Page/Home Page of the Project, allows users to browse the available templates. |
 
 ## ![SECTION Changelog](https://img.shields.io/badge/❕-Changelog-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white)
 
+Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the complete information.
+
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 2.0.1 | 14-15.09.2024 | [Commit ID](https://www.github.com) | fix/feat | To cover the needed changes at Issue [#1](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/issues/1):<br>- Updated Markdown files structure overall based on the template: https://github.com/thenocturnaldevgypsy/github-markdown-template-readme/blob/master/MD%20Templates/Repo-App-README-v-0-0-1.md, create separate pages for each themes, changelogs and CONTRIBUTING.md to make it easier to update.<br>-Fix the files and directory structure, and file naming of the whole repo. |
-| 1.1.3 | 06-07.09.2024 | -- | fix/feat | - Revisited the CSS reponsive compatibilities for `mobile`, `tablet` and `desktop` for the current templates<br>- Finished `theme-001-04.html`, `theme-001-05.html`, `theme-001-06.html`, `theme-001-07.html`, `theme-001-08.html`, `theme-001-09.html`, `theme-001-10.html` and `theme-001-11.html`<br>- Established the GitHub Pages of the repo: https://thenocturnaldevgypsy.github.io/gypsyshards-bootstrap-template-linkinbio/ |
-| 1.1.2 | 01.09.2024 | -- | fix/feat | Finished `theme-001-02.html` and `theme-001-03.html` |
-| 1.1.1 | 29-31.08.2024 | -- | Initial | Started the project, decided which tools to be used, setup the repo to public, finished the initial directory design, `README.md`, `LICENSE`, `FUNDING.yml`, `index.html` and `theme-001-01.html` |
 
 ## ![SECTION Contribute](https://img.shields.io/badge/🤝-Contribute-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white)
-Want to contribute? Great! Contributions welcome, but please read the [contribution guidelines](contributing.md) first.
+Want to contribute? Great! Contributions welcome, but please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## ![SECTION License](https://img.shields.io/badge/📑-License-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white)
 Distributed under the MIT License by [Abegail Torrendon / thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy).
