@@ -69,6 +69,7 @@ At the moment, the workspace contains the following folders, where:
 Filename format for each themes:
 - `theme-xxx(theme_number)-yyy(variant)-zzz(page_number).html` : theme page filename format
 - `theme-xxx(theme_number).md` : theme page filename format
+- `md_assets/theme-xxx(theme_number).jpg` : theme "base" page's screenshot filename format
 - `assets/css/style-xxx(theme_number)-yyy(variant).css` : main CSS for the theme page filename format
 - `assets/js/core-xxx(theme_number)-yyy(variant).css` : main JS for the theme page filename format
 

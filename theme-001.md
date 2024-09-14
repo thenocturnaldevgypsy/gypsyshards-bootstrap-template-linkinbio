@@ -19,14 +19,15 @@
 
 #### 📖 Contents and Breakdown > Under Theme 001 | Back to [Main](README.md)
 
-<img src="/md_assets/theme-001.jpg" alt="Logo" width="130" height="130">
+<img src="/md_assets/theme-001.jpg" alt="Theme 001" width="500">
 
 ---
 
 ☑️ **Description/Features** 
-- Feature 1...
+
+`Theme 001` - Basic Link in Bio: One Main Background, One Container Background, Profile Picture, H1 Header, Description, Quick Social Media Links, Link Buttons and Simple Footer.
 
 ✳️ **Variants**
 | Variant | Date | Commit | Files | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| [Theme xxx.xx](https://link.com) | DD.MM.YYYY | [Commit ID](https://www.github.com) for [PR ID](https://www.github.com) | - directory/filename.html<br>- directory/filename.css<br>- directory/filename.js | What was done ([PR ID](https://www.github.com)) |
+| 001 | 31.08.2024 | -- | - theme-001-001-001.html<br>- assets/css/style-001-001.css<br>- assets/js/core-001-001.js | Basic Link in Bio: One Main Background, One Container Background, Profile Picture, H1 Header, Description, Quick Social Media Links, Link Buttons and Simple Footer. |
