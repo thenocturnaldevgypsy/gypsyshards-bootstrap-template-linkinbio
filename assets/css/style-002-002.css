@@ -1,5 +1,5 @@
 /**
-* Main CSS File for GypsyShards: [Theme 001.11] Link in Bio Template using Bootstrap 5.3.3
+* Main CSS File for GypsyShards: [Theme 002.2] Link in Bio Template using Bootstrap 5.3.3
 * Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
 */
 
@@ -12,31 +12,47 @@ body {
    padding-right: 40px;
    font-family: Ubuntu, sans-serif;
    letter-spacing: 1px;
-   position: relative;
-   min-height: 100vh;
-   overflow-x: hidden;
+   background: linear-gradient(-45deg, #ca7a7c, #8e5758, #2d1415, #5d3b3c, #d8a7a8);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 
-/* Video background */
-.video-background {
-   position: fixed; /* Fix the video so it doesn't scroll */
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 100vh;
-   z-index: -1; /* Ensure it’s behind the content */
-   overflow: hidden;
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
-.video-background iframe {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 100vh;
-   border: 0;
-   object-fit: cover;
-   pointer-events: none; /* Prevent interaction with the video */
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 .linkinbio-main-container {
@@ -92,7 +108,7 @@ p {
    width: 100%;
    height: calc(100% - 120px); /* Fills the remaining space */
    background-color: #101010;
-   z-index: -1;
+   z-index: -2;
 }
 
 .linkinbio-profile-header {

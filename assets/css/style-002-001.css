@@ -1,5 +1,5 @@
 /**
-* Main CSS File for GypsyShards: [Theme 001.9] Link in Bio Template using Bootstrap 5.3.3
+* Main CSS File for GypsyShards: [Theme 002.1] Link in Bio Template using Bootstrap 5.3.3
 * Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
 */
 
@@ -10,11 +10,9 @@ body {
    padding-bottom: 20px;
    padding-left: 40px;
    padding-right: 40px;
+   background-color: #CCDBEC;
    font-family: Ubuntu, sans-serif;
    letter-spacing: 1px;
-   background: url('../img/background.jpg') no-repeat center center fixed; /* Background image from subdirectory */
-   background-size: cover; /* Make sure the background image covers the entire screen */
-   background-attachment: fixed; /* Fix the background image */
 }
 
 .linkinbio-main-container {
@@ -146,7 +144,6 @@ p {
       padding-bottom: 15px;
       padding-left: 10px;
       padding-right: 10px;
-      background-attachment: fixed; /* Fix the background image only for larger screens */
    }
    .linkinbio-main-container {
       width: 100%;
