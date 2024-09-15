@@ -1,5 +1,5 @@
 /**
-* Main CSS File for GypsyShards: [Theme 001.6] Link in Bio Template using Bootstrap 5.3.3
+* Main CSS File for GypsyShards [001.006] of Free Bootstrap 5.3.3 Themes of Link in Bio Templates
 * Author: TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
 */
 
@@ -135,6 +135,19 @@ a:hover {
    font-size: 12px;
    color: #CCDBEC;
    margin-top: 30px;
+}
+
+/* For Shaking Button */
+@keyframes shake {
+   0% { transform: translateX(0); }
+   25% { transform: translateX(-10px); }
+   50% { transform: translateX(10px); }
+   75% { transform: translateX(-10px); }
+   100% { transform: translateX(0); }
+}
+
+.shake {
+   animation: shake 0.5s ease;
 }
 
 /* Responsive width adjustment */
