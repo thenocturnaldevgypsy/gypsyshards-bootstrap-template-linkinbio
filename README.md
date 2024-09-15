@@ -90,7 +90,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2.1.1 | 15.09.2024 | [93dcfad](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/commit/93dcfad9566ab4c8c9f2cd1b7d7b80b4dca40263) for [PR 2](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/pull/2) | fix/feat | To cover the needed changes at Issue [#3](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/issues/3):<br>- Updated one of the Link Buttons to shake for few seconds, stops, and shakes again.<br>- Updated documentation for the changes, reviewed coding and filename structuring. |
+| 2.1.1 | 15.09.2024 | [5ec4649](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/commit/5ec4649244c235102a9052dacc449f3efc8ccea8) for [PR 4](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/pull/4) | fix/feat | To cover the needed changes at Issue [#3](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/issues/3):<br>- Updated one of the Link Buttons to shake for few seconds, stops, and shakes again. ([PR 4](https://github.com/thenocturnaldevgypsy/gypsyshards-bootstrap-template-linkinbio/pull/4))<br>- Updated documentation for the changes, reviewed coding and filename structuring. |
 
 ## ![SECTION Contribute](https://img.shields.io/badge/🤝-Contribute-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white)
 Want to contribute? Great! Contributions welcome, but please read the [contribution guidelines](CONTRIBUTING.md) first.
