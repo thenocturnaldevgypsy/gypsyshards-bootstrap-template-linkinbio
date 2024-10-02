@@ -1,0 +1,20 @@
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Linux system files
+*~
+.*.swp
+.nfs*
+
+# Ignore all .code-workspace files
+*.code-workspace
+
+# Ignore backup folder and files (if applicable)
+backup/
+backup/*
